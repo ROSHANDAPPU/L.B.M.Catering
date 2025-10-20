@@ -110,15 +110,47 @@
     padding: 0;
   }
 
-  html, :host {
-    -webkit-text-size-adjust: 100%;
-    tab-size: 4;
-    line-height: 1.5;
-    font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
-    font-feature-settings: var(--default-font-feature-settings, normal);
-    font-variation-settings: var(--default-font-variation-settings, normal);
-    -webkit-tap-highlight-color: transparent;
-  }
+  h1, h2, h3 {
+  font-family: theme('fontFamily.libre-baskerville');
+}
+
+body, button, label, input, textarea, select {
+  font-family: theme('fontFamily.montserrat');
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+button, label {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 1.3;
+}
+
 
   body {
     line-height: inherit;
