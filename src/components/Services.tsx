@@ -48,7 +48,7 @@ export function Services() {
               
               <div className="p-6">
                 <h3 className="text-[#36394C] mb-3">{service.title}</h3>
-                <p className="text-[#36394C]/70" style={{ fontSize: '14px', lineHeight: 1.5 }}>
+                <p className="text-ink-navy/70" style={{ fontSize: '14px', lineHeight: 1.5 }}>
                   {service.description}
                 </p>
               </div>

@@ -71,7 +71,7 @@ export function Header({ onNavigate, alwaysLight = false }: HeaderProps) {
               onClick={() => onNavigate(link.id)}
               className={`transition-colors ${
                 isLight 
-                  ? 'text-[#36394C] hover:text-[#5B2E34]' 
+                  ? 'text-[#36394C] hover:text-reserved-burgundy' 
                   : 'text-[#EFE3D7] hover:text-[#C4A46A]'
               }`}
             >

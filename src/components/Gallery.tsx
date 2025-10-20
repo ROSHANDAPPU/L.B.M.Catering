@@ -36,7 +36,7 @@ export function Gallery() {
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-[#36394C] mb-4">Gallery</h2>
-          <p className="text-[#36394C]/70 max-w-2xl mx-auto">
+          <p className="text-ink-navy/70 max-w-2xl mx-auto">
             A glimpse into our world of culinary artistry and unforgettable moments.
           </p>
         </div>

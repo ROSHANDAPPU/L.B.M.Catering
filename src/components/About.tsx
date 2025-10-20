@@ -15,7 +15,7 @@ export function About() {
 
           <div>
             <h2 className="text-[#36394C] mb-6">Our Story</h2>
-            <p className="text-[#36394C]/80 mb-6">
+            <p className="text-ink-navy/80">
               La Bella Mesa was born from a simple belief: every gathering deserves to feel effortless and extraordinary. We curate culinary experiences that honor tradition while embracing modern sensibilities.
             </p>
             <p className="text-[#36394C]/80 mb-8">

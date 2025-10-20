@@ -33,7 +33,7 @@ export function Testimonials() {
               key={index}
               className="relative"
             >
-              <div className="absolute left-0 top-0 bottom-0 w-[2px] bg-[#C4A46A]" />
+              <div className="absolute left-0 top-0 bottom-0 w-[2px] bg-brass" />
               <div className="pl-6">
                 <p className="text-[#36394C] italic mb-6" style={{ fontSize: '18px', lineHeight: 1.6 }}>
                   "{testimonial.quote}"

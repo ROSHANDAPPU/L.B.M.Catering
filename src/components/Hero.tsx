@@ -92,7 +92,7 @@ export function Hero({ onNavigate }: HeroProps) {
           >
             <button
               onClick={() => onNavigate('contact')}
-              className="relative bg-[#5B2E34] text-[#EFE3D7] px-8 py-4 rounded-[14px] border border-white/20 shadow-lg hover:bg-[#4F272C] hover:shadow-xl hover:scale-105 active:scale-95 transition-all duration-300 overflow-hidden group"
+              className="relative bg-[#5B2E34] text-[#EFE3D7] px-8 py-4 rounded-[14px] border border-white/20 shadow-lg hover:bg-darker-burgundy hover:shadow-xl hover:scale-105 active:scale-95 transition-all duration-300 overflow-hidden group"
             >
               <span className="relative z-10">Book Your Event</span>
               <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-50 group-hover:opacity-70 transition-opacity" />

@@ -5,47 +5,45 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#5B2E34] text-[#EFE3D7] relative">
-      <div className="absolute top-0 left-0 right-0 h-[2px] bg-[#C4A46A]" />
-      
-      <div className="max-w-[1200px] mx-auto px-6 py-16">
+    <footer className="bg-gradient-to-br from-light-cream via-light-cream to-light-cream/95 text-ink-navy font-montserrat shadow-lg relative overflow-hidden">
+      <div className="max-w-[1200px] mx-auto px-6 py-16 relative z-10">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
-            <img 
-              src={logoFooter} 
-              alt="La Bella Mesa" 
-              className="h-24 w-auto mb-4"
+            <img
+              src={logoFooter}
+              alt="La Bella Mesa"
+              className="w-[150px] h-auto mb-4 drop-shadow-sm transition-transform hover:scale-105"
             />
-            <p className="text-[#EFE3D7]/80" style={{ fontSize: '14px', lineHeight: 1.6 }}>
+            <p className="text-sm leading-relaxed font-montserrat text-ink-navy">
               Crafting unforgettable culinary experiences with elegance, warmth, and dedication to local artisans.
             </p>
-            <div className="mt-4 space-y-1">
-              <p className="text-[#C4A46A]" style={{ fontSize: '14px', fontWeight: 500 }}>
-                www.labellamesa­events.com
-              </p>
+            <div className="mt-4">
+              <a href="https://www.labellamesa-events.com" className="text-sm font-montserrat text-reserved-burgundy hover:underline">
+                www.labellamesa-events.com
+              </a>
             </div>
           </div>
 
           <div>
-            <h4 className="mb-4">Quick Links</h4>
-            <ul className="space-y-2" style={{ fontSize: '14px' }}>
+            <h4 className="font-montserrat font-semibold text-reserved-burgundy mb-4">Quick Links</h4>
+            <ul className="space-y-2 text-sm">
               <li>
-                <a href="#about" className="text-[#EFE3D7]/80 hover:text-[#C4A46A] transition-colors" style={{ fontWeight: 400 }}>
+                <a href="#about" className="font-montserrat text-ink-navy hover:text-reserved-burgundy transition-colors">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#services" className="text-[#EFE3D7]/80 hover:text-[#C4A46A] transition-colors" style={{ fontWeight: 400 }}>
+                <a href="#services" className="font-montserrat text-ink-navy hover:text-reserved-burgundy transition-colors">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#gallery" className="text-[#EFE3D7]/80 hover:text-[#C4A46A] transition-colors" style={{ fontWeight: 400 }}>
+                <a href="#gallery" className="font-montserrat text-ink-navy hover:text-reserved-burgundy transition-colors">
                   Gallery
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-[#EFE3D7]/80 hover:text-[#C4A46A] transition-colors" style={{ fontWeight: 400 }}>
+                <a href="#contact" className="font-montserrat text-ink-navy hover:text-reserved-burgundy transition-colors">
                   Contact
                 </a>
               </li>
@@ -53,23 +51,19 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="mb-4">Connect With Us</h4>
-            <div className="space-y-3 mb-6">
+            <h4 className="font-montserrat font-semibold text-reserved-burgundy mb-4">Connect With Us</h4>
+            <div className="space-y-3 mb-6 text-sm">
               <a
                 href="tel:+12147169201"
-                className="flex items-center gap-2 text-[#EFE3D7]/90 hover:text-[#C4A46A] transition-colors"
-                style={{ fontSize: '14px' }}
+                className="flex items-center gap-2 font-montserrat text-ink-navy hover:text-reserved-burgundy transition-colors"
               >
-                <div className="w-[2px] h-5 bg-[#C4A46A]" />
                 (214) 716-9201
               </a>
               <a
-                href="mailto:contact@labellamesa­events.com"
-                className="flex items-center gap-2 text-[#EFE3D7]/90 hover:text-[#C4A46A] transition-colors"
-                style={{ fontSize: '14px' }}
+                href="mailto:contact@labellamesa-events.com"
+                className="flex items-center gap-2 font-montserrat text-ink-navy hover:text-reserved-burgundy transition-colors"
               >
-                <div className="w-[2px] h-5 bg-[#C4A46A]" />
-                contact@labellamesa­events.com
+                contact@labellamesa-events.com
               </a>
             </div>
             <div className="flex gap-4 mb-6">
@@ -77,36 +71,34 @@ export function Footer() {
                 href="https://instagram.com/labellamesa_events"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-[#EFE3D7]/10 flex items-center justify-center hover:bg-[#C4A46A] hover:scale-110 active:scale-95 transition-all"
+                className="w-12 h-12 rounded-full border-2 border-stone/50 flex items-center justify-center text-ink-navy hover:bg-gradient-to-br hover:from-pink-500 hover:to-purple-500 hover:text-white hover:border-transparent hover:shadow-lg transition-all duration-300 transform hover:scale-110"
                 aria-label="Instagram"
               >
-                <Instagram size={20} />
+                <Instagram size={22} />
               </a>
               <a
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-[#EFE3D7]/10 flex items-center justify-center hover:bg-[#C4A46A] hover:scale-110 active:scale-95 transition-all"
+                className="w-12 h-12 rounded-full border-2 border-stone/50 flex items-center justify-center text-ink-navy hover:bg-blue-600 hover:text-white hover:border-blue-600 hover:shadow-lg transition-all duration-300 transform hover:scale-110"
                 aria-label="Facebook"
               >
-                <Facebook size={20} />
+                <Facebook size={22} />
               </a>
               <a
-                href="mailto:contact@labellamesa­events.com"
-                className="w-10 h-10 rounded-full bg-[#EFE3D7]/10 flex items-center justify-center hover:bg-[#C4A46A] hover:scale-110 active:scale-95 transition-all"
+                href="mailto:contact@labellamesa-events.com"
+                className="w-12 h-12 rounded-full border-2 border-stone/50 flex items-center justify-center text-ink-navy hover:bg-reserved-burgundy hover:text-white hover:border-reserved-burgundy hover:shadow-lg transition-all duration-300 transform hover:scale-110"
                 aria-label="Email"
               >
-                <Mail size={20} />
+                <Mail size={22} />
               </a>
             </div>
-            <p className="text-[#EFE3D7]/60 italic" style={{ fontSize: '14px' }}>
-              @labellamesa_events
-            </p>
           </div>
         </div>
 
-        <div className="border-t border-[#EFE3D7]/20 pt-8 text-center">
-          <p className="text-[#EFE3D7]/60" style={{ fontSize: '14px' }}>
+        <div className="border-t border-stone/30 pt-8 text-center relative">
+          <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-stone/20 to-transparent"></div>
+          <p className="text-sm font-montserrat text-ink-navy/70">
             © {currentYear} La Bella Mesa. All rights reserved.
           </p>
         </div>
