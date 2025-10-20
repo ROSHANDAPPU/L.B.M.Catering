@@ -1,4 +1,4 @@
-import businessCardCream from 'figma:asset/6b400490cc61dbc71522459ab83bafbe29d05aea.png';
+const businessCardCream = '/images/business-card-cream.png';
 
 export function About() {
   return (

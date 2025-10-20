@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Phone, Instagram, Mail } from 'lucide-react';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
-import businessCardCream from 'figma:asset/6b400490cc61dbc71522459ab83bafbe29d05aea.png';
+const businessCardCream = '/images/business-card-cream.png';
 
 interface MenuItemCardProps {
   name: string;

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import logoLight from 'figma:asset/d6a7c683620c32417b447b6d2db494a4d28b09c3.png';
-import logoDark from 'figma:asset/52859160954b1ee67ba6840d61c406ba9681560a.png';
+const logoLight = '/images/logo-light.png';
+const logoDark = '/images/logo-dark.png';
 
 interface HeaderProps {
   onNavigate: (section: string) => void;

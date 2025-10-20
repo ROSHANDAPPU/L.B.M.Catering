@@ -19,10 +19,10 @@ const path = require('path');
 
 // Files to update
 const filesToUpdate = [
-  'components/Header.tsx',
-  'components/Footer.tsx',
-  'components/About.tsx',
-  'pages/MenuPage.tsx'
+  'src/components/Header.tsx',
+  'src/components/Footer.tsx',
+  'src/components/About.tsx',
+  'src/pages/MenuPage.tsx'
 ];
 
 // Replacement mappings
