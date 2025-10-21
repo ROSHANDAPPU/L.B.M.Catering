@@ -96,6 +96,8 @@
 }
 
 @layer base {
+  @import url('./fonts.css');
+
   *, :after, :before, ::backdrop {
     box-sizing: border-box;
     border: 0 solid;
@@ -111,11 +113,11 @@
   }
 
   h1, h2, h3 {
-  font-family: theme('fontFamily.libre-baskerville');
+  font-family: 'Libre Baskerville', serif;
 }
 
 body, button, label, input, textarea, select {
-  font-family: theme('fontFamily.montserrat');
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2 {

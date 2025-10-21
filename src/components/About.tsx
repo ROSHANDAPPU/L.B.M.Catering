@@ -14,26 +14,26 @@ export function About() {
           </div>
 
           <div>
-            <h2 className="text-[#36394C] mb-6">Our Story</h2>
-            <p className="text-ink-navy/80">
+            <h2 className="text-h2 font-libre-700 text-ink-navy mb-6">Our Story</h2>
+            <p className="text-body font-montserrat-400 text-ink-navy mb-6">
               La Bella Mesa was born from a simple belief: every gathering deserves to feel effortless and extraordinary. We curate culinary experiences that honor tradition while embracing modern sensibilities.
             </p>
-            <p className="text-[#36394C]/80 mb-8">
+            <p className="text-lead font-montserrat-500 text-ink-navy mb-8">
               With meticulous attention to detail and a deep appreciation for local artisans, we transform your vision into a seamless reality. From intimate dinners to grand celebrations, we bring warmth, elegance, and unmatched quality to every table.
             </p>
 
             <div className="grid grid-cols-3 gap-8 mb-8">
               <div>
                 <div className="text-[#5B2E34] mb-2" style={{ fontSize: '32px', fontWeight: 700, lineHeight: 1.2, fontFamily: 'var(--font-headline)' }}>500+</div>
-                <p className="text-[#36394C]/70" style={{ fontSize: '14px' }}>Events Curated</p>
+                <p className="text-caption font-montserrat-400 text-ink-navy">Events Curated</p>
               </div>
               <div>
-                <div className="text-[#5B2E34] mb-2" style={{ fontSize: '32px', fontWeight: 700, lineHeight: 1.2, fontFamily: 'var(--font-headline)' }}>12</div>
-                <p className="text-[#36394C]/70" style={{ fontSize: '14px' }}>Years Excellence</p>
+                <div className="text-h2 font-libre-700 text-reserved-burgundy mb-2">12</div>
+                <p className="text-caption font-montserrat-400 text-ink-navy">Years Excellence</p>
               </div>
               <div>
-                <div className="text-[#5B2E34] mb-2" style={{ fontSize: '32px', fontWeight: 700, lineHeight: 1.2, fontFamily: 'var(--font-headline)' }}>100%</div>
-                <p className="text-[#36394C]/70" style={{ fontSize: '14px' }}>Satisfaction</p>
+                <div className="text-h2 font-libre-700 text-reserved-burgundy mb-2">100%</div>
+                <p className="text-caption font-montserrat-400 text-ink-navy">Satisfaction</p>
               </div>
             </div>
 
