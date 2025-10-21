@@ -14,19 +14,19 @@ export function Footer() {
               alt="La Bella Mesa"
               className="w-[150px] h-auto mb-4 drop-shadow-sm transition-transform hover:scale-105"
             />
-            <p className="text-sm leading-relaxed font-montserrat text-ink-navy">
+            <p className="text-body font-montserrat font-montserrat-400 text-ink-navy">
               Crafting unforgettable culinary experiences with elegance, warmth, and dedication to local artisans.
             </p>
             <div className="mt-4">
-              <a href="https://www.labellamesa-events.com" className="text-sm font-montserrat text-reserved-burgundy hover:underline">
+              <a href="https://www.labellamesa-events.com" className="text-small font-montserrat font-montserrat-400 text-reserved-burgundy hover:underline">
                 www.labellamesa-events.com
               </a>
             </div>
           </div>
 
           <div>
-            <h4 className="font-montserrat font-semibold text-reserved-burgundy mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="text-h4 font-montserrat font-montserrat-700 text-reserved-burgundy mb-4">Quick Links</h4>
+            <ul className="space-y-2 text-body">
               <li>
                 <a href="#about" className="font-montserrat text-ink-navy hover:text-reserved-burgundy transition-colors">
                   About Us
@@ -51,8 +51,8 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-montserrat font-semibold text-reserved-burgundy mb-4">Connect With Us</h4>
-            <div className="space-y-3 mb-6 text-sm">
+            <h4 className="text-h4 font-montserrat font-montserrat-700 text-reserved-burgundy mb-4">Connect With Us</h4>
+            <div className="space-y-3 mb-6 text-small">
               <a
                 href="tel:+12147169201"
                 className="flex items-center gap-2 font-montserrat text-ink-navy hover:text-reserved-burgundy transition-colors"
@@ -98,7 +98,7 @@ export function Footer() {
 
         <div className="border-t border-stone/30 pt-8 text-center relative">
           <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-stone/20 to-transparent"></div>
-          <p className="text-sm font-montserrat text-ink-navy/70">
+          <p className="text-small font-montserrat font-montserrat-400 text-ink-navy/70">
             © {currentYear} La Bella Mesa. All rights reserved.
           </p>
         </div>
