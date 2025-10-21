@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-const logoLight = '/images/logo-light.png';
-const logoDark = '/images/logo-dark.png';
+import logoNavbar from '/images/logo-navbar.png';
+import logoNavbarScrolled from '/images/logo-navbar-scrolled.png';
 
 interface HeaderProps {
   onNavigate: (section: string) => void;
@@ -54,7 +54,7 @@ export function Header({ onNavigate, alwaysLight = false }: HeaderProps) {
             }}
           >
             <img 
-              src={isLight ? logoLight : logoDark} 
+              src={isLight ? logoNavbarScrolled : logoNavbar} 
               alt="La Bella Mesa" 
               className="h-8 md:h-12 w-auto"
               style={{

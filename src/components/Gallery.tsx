@@ -32,7 +32,7 @@ export function Gallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   return (
-    <section id="gallery" className="py-20 bg-[url('/la-bella-pattern.png')] bg-cover bg-center">
+    <section id="gallery" className="py-20 bg-[url('/brand-pattern.png')] bg-cover bg-center">
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-[#36394C] mb-4">Gallery</h2>

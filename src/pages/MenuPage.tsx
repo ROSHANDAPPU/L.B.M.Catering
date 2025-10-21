@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Phone, Instagram, Mail } from 'lucide-react';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
-const businessCardCream = '/images/business-card-cream.png';
+const businessCardCream = '/images/business-card-brand.png';
 
 interface MenuItemCardProps {
   name: string;

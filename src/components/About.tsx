@@ -1,4 +1,4 @@
-const businessCardCream = '/images/business-card-cream.png';
+const businessCardCream = '/images/business-card-brand.png';
 
 export function About() {
   return (
